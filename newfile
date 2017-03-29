@@ -1,0 +1,25 @@
+#!/bin/bash
+# script to create multiple users
+
+clear
+tput cup 1 10
+c=0
+echo "hello"
+read -p "Enter path of user's list :]>" path
+
+if [ !$path ]
+then
+path=~/userlist.txt
+fi
+
+for x in `less $path`
+do
+	sudo userdel $x
+	useradd $x 
+	echo "redhat" | passwd --stdin $x >> /dev/null
+	echo "$x \t user creation successful"
+	c=$((c+1))
+done
+
+echo " Total no. of $c users created on $(date +%F)"
+

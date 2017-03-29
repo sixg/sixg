@@ -1,0 +1,428 @@
+    1  ifconfig -a | less
+    2  l
+    3  ll
+    4  ls -la
+    5  tty
+    6  runlevel 
+    7  tty
+    8  ls la
+    9  ls -la
+   10  cat /etc/services | grep -i ssh --color
+   11  ls -Z
+   12  ls -Z .bash_history 
+   13  ll --lcontext .bash_history 
+   14  ll --scontext .bash_history 
+   15  ll --context .bash_history 
+   16  stat .bash_history 
+   17  echo "ythisoi a test gile gb gdkaha skdh kjahkjdhaskj hdjkashkjda d" > file.txt
+   18  stat file.txt 
+   19  ll --context file.txt 
+   20  ll --scontext file.txt 
+   21  ll --lcontext file.txt 
+   22  ls -Z file.txt 
+   23  pwd
+   24  cd
+   25  cd /
+   26  cd
+   27  pws
+   28  pwd
+   29  whoami
+   30  who i am
+   31  id
+   32  w
+   33  finger
+   34  history >> file.txt 
+   35  cat file.txt 
+   36  id root
+   37  getent passwd {root,ftp}
+   38  getent group root
+   39  getent group {root,ftp}
+   40  getent shadow {root,ftp}
+   41  history tail
+   42  history 32
+   43  jobs
+   44  bg
+   45  fg
+   46  sudo jobs
+   47  ps
+   48  cd /proc/
+   49  ls -la
+   50  ls
+   51  HIER
+   52  hier
+   53  ps
+   54  ls -l /bin/
+   55  runlevel 
+   56  who --r
+   57  who -r
+   58  w
+   59  who
+   60  man hier
+   61  which w
+   62  cat /etc/inittab 
+   63  ll /etc/rc.d/rc5.d/
+   64  ll /etc/rc.d/rc3.d/
+   65  ls /etc/rc.d/rc3.d/
+   66  chkconfig --list sshd
+   67  man hie
+   68  man hier
+   69  lsblk
+   70  cd
+   71  ll /dev/*sd*
+   72  df -Th
+   73  whatis df
+   74  which df
+   75  whereis df
+   76  history > file.txt 
+   77  cat file.txt 
+   78  clear
+   79  info df
+   80  man df
+   81  df ---help
+   82  df --\-help
+   83  df --help
+   84  df -f
+   85  df -h
+   86  df -Th
+   87  du -ksh
+   88  du -ksh /home/
+   89  du -ksh /
+   90  du -ksh /boot/
+   91  help test
+   92  help df
+   93  whatis man
+   94  man 7 man
+   95  ls -ld
+   96  ls -lr
+   97  ls -la
+   98  touch newfile.txt
+   99  ls 
+  100  ls -il
+  101  ls -lrth
+  102  |
+  103  tty
+  104  w
+  105  runlevel 
+  106  w
+  107  tty
+  108  yum install -y apache
+  109  sudo yum install -y apache
+  110  sudo yum install -y https
+  111  sudo yum install -y httpd
+  112  which httpd
+  113  ls -la /usr/sbin/httpd
+  114  ls -la /usr/sbin/httpd/
+  115  which apache
+  116  whereis apache
+  117  echo "hello this is from other terminal" > /dev/pts/1
+  118  echo "ls -la " > /dev/pts/1
+  119  w;who;whoami;tty;
+  120  ls -la | tail -2
+  121  less /etc/passwd
+  122  more /etc/passwd
+  123  less /etc/passwd
+  124  tail -1 /etc/passwd && echo "-----------------information found----------------------"
+  125  echo date
+  126  echo `date`
+  127  data
+  128  date
+  129  echo $(7+6)
+  130  echoaaaaaaaaaaaaaaaaaaaaaaa (7+6)
+  131  echo $((7+6))
+  132  ECHO $(W)
+  133  ECHO $(w)
+  134  echo $(w)
+  135  clear
+  136  history > file.txt 
+  137  wc c
+  138  echo $(w)
+  139  useradd -u 1001 -s /bin/bash -c "ashwani login" ashwani
+  140  sudo useradd -u 1001 -s /bin/bash -c "ashwani login" ashwani
+  141  grep -i "ashwani" --color /etc/shadow
+  142  sudo grep -i "ashwani" --color /etc/shadow
+  143  sudo grep -i "ashwani" --color /etc/shadow | wc -l
+  144  passwd -S ashwani
+  145  sudo su
+  146  sudo passwd -S ashwani
+  147  passwd ashwani
+  148  sudo passwd ashwani
+  149  sudo passwd -S ashwani
+  150  sudo passwd ashwani
+  151  sudo passwd -S ashwani
+  152  sudo passwd -d ashwani
+  153  sudo passwd -S ashwani
+  154  vi /etc/shadow
+  155  sudo vi /etc/shadow
+  156  sudo ashwani
+  157  su -ashwani
+  158  su - ashwani
+  159  pwd
+  160  history > file.txt 
+  161  more file.txt 
+  162  ls
+  163  rm -rfv w.txt
+  164  rm -rfv newfile.txt 
+  165  touch newfile
+  166  rm -rf newfile && echo -e "File deleted successfully \n on `date`"
+  167  rm -rf newfile && echo -e "File deleted successfully on \t `date`"
+  168  rm -rf newfile && echo -e "File deleted successfully on \v `date`"
+  169  ls
+  170  echo "asdasdasd" 1> newfile
+  171  echo "axcvxvxcvxvxvxv" 1> newfile
+  172  cat newfile 
+  173  echo "axcvxvxcvxvxvxv" 0> newfile
+  174  cat newfile 
+  175  echo "axcvxvxcvxvxvxv" 2> newfile
+  176  cat newfile 
+  177  echo "axcvxvxcvxvxvxv" 1> newfile
+  178  cat newfile 
+  179  lastb
+  180  sudo lastb
+  181  sudo lastlog
+  182  ls -la /var/log/httpd/
+  183  sudo ls -la /var/log/httpd/
+  184  tac file.txt 
+  185  wc -l file.txt 
+  186  wc -l < file.txt 
+  187  time wc -l < file.txt 
+  188  ls
+  189  cat newfile 
+  190  ls -l abc > newfile 
+  191  cat newfile 
+  192  ls -l abc 2> newfile 
+  193  cat newfile 
+  194  ls -l abc >> newfile 
+  195  cat newfile 
+  196  abc 2>> newfile 
+  197  cat newfile 
+  198  ls -l abc newfile >> newfile 
+  199  ls -l abc newfile 2>> newfile 
+  200  cat newfile 
+  201  ls -l abc newfile 2>> newfile 
+  202  ls -l abc newfile 2>> newfile 1>> newfile 
+  203  cat newfile 
+  204  sort newfile 
+  205  ls -l /etc/{passwd,shadow}
+  206  clear
+  207  echo "ashwani" | passwd --stdin ashwani
+  208  sudo echo "ashwani" | passwd --stdin ashwani
+  209  echo "ashwani" | passwd --stdin ashwani &> newfile 
+  210  cat newfile 
+  211  echo "ashwani" | passwd --stdin ashwani 2&> newfile 
+  212  cat newfile 
+  213  echo "ashwani" | passwd --stdin ashwani 2> newfile 
+  214  cat newfile 
+  215  echo "ashwani" | passwd --stdin ashwani 2>> newfile 
+  216  cat newfile 
+  217  echo $$
+  218  ll /proc/9409/fd/
+  219  echo $?
+  220  ls -l /etc/passwd /etc/grp1 2&>> newfile 
+  221  cat newfile 
+  222  ls -l /etc/passwd /etc/grp1 &>> newfile 
+  223  cat newfile 
+  224  ls -l /etc/passwd /etc/grp1 &> newfile 
+  225  cat newfile 
+  226  ls -lR / 2>> /dev/null 
+  227  ls -lR /| wc -l 2>> /dev/null 
+  228  (ls -lR /| wc -l) 2> /dev/null 
+  229  ls -lR /| wc -l 2>> /dev/null 
+  230  (ls -lR /| wc -l) 2> /dev/null 
+  231  more /dev/null 
+  232  history > file.txt 
+  233  (ls -lR /| wc -l) 2&> newfile 
+  234  ls -lR /| wc -l 2&> newfile 
+  235  cat newfile 
+  236  clear
+  237  /dev/pts/1
+  238  exec 7> /dev/null 
+  239  exec 7> newfile 
+  240  w >&7
+  241  cat newfile 
+  242  ll /proc/$$/fd/*
+  243  tty
+  244  who -r
+  245  sed -i 's/1/a/g' newfile 
+  246  cat newfile 
+  247  grep -i a --color newfile 
+  248  grep -i a --color newfile -V
+  249  grep -i a --color newfile -v
+  250  grep -i a --color newfile -B 4
+  251  grep -i a --color newfile -B 2
+  252  grep -i a --color newfile -v
+  253  echo "retretretet" >> newfile 
+  254  grep -i a --color newfile -v
+  255  grep -i a --color newfile -A 3
+  256  grep -i a --color newfile -A 2
+  257  grep -i a --color newfile -C 2
+  258  grep -i a --color newfile -n
+  259  grep -i av --color newfile -n
+  260  grep -i a --color newfile -n -m 2
+  261  grep -i ashwani --color /etc/passwd -n
+  262  grep -iE "ashwani" --color /etc/passwd -n
+  263  grep -iE "ashwani|root" --color /etc/passwd -n
+  264  grep -iE "^ashwani|root$" --color /etc/passwd -n
+  265  grep -iE "^ashwani|root$" --color /etc/passwd -n
+  266  cut -d: -f3 /etc/passwd
+  267  cut -d: -fq /etc/passwd
+  268  cut -d: -f1 /etc/passwd
+  269  cut -d: -f1,3,5 /etc/passwd
+  270  cut -d: -f1,3,5 /etc/passwd 1>> newfile 
+  271  cat newfile 
+  272  cut -c1-7 -f1,3,5 /etc/passwd 1>> newfile 
+  273  cut -c1,7 -f1,3,5 /etc/passwd 1>> newfile 
+  274  cut -c1,7 -f1,3,5 /etc/passwd
+  275  cut -c17 -f1,3,5 /etc/passwd
+  276  cut -c1 -f1,3,5 /etc/passwd
+  277  cut -C1 -f1,3,5 /etc/passwd
+  278  cut -c1 -f1,3,5 /etc/passwd
+  279  cut -c1 -f /etc/passwd
+  280  cut -c1,3,4 /etc/passwd
+  281  cut -c1-4 /etc/passwd
+  282  find / -type f -iname "file*"
+  283  sudo find / -type f -iname "file*"
+  284  sudo find / -type f -iname "file."
+  285  sudo find / -type f -iname "file.txt"
+  286  sudo find / -type f -iname "file"
+  287  sudo find / -type f -iname "file.*"
+  288  cat >> newfile << EOF
+  289  welcome to devops
+  290  welcome to cuker
+  291  deops sucks
+  292  EOF
+  293  cat newfile 
+  294  clear
+  295  sudo find / -type f -iname newfile -ls
+  296  sudo find / -type f -iname newfile -ls -exec cp -rf newfile1
+  297  sudo find / -type f -iname newfile -ls -exec cp -rf {} /home/ec2-user/ \;
+  298  sudo find / -type f -iname newfile -ls -exec cp -rf {} /home/ashwani/ \;
+  299  ls
+  300  ls /home/ashwani/
+  301  sudo ls /home/ashwani/
+  302  touch welcome.sh
+  303  chmod -Rv a+x welcome.sh 
+  304  ls -la
+  305  file welcome.sh 
+  306  vi welcome.sh 
+  307  wel
+  308  ./welcome.sh 
+  309  vi welcome.sh 
+  310  sh welcome.sh 
+  311  . welcome.sh 
+  312  vi welcome.sh 
+  313  mkdir newscripts
+  314  mkdir -pVnewscripts
+  315  mkdir -pV newscripts
+  316  mkdir -pv newscripts
+  317  ls
+  318  mv welcome.sh newscripts/
+  319  ls
+  320  cd newscripts/
+  321  ls
+  322  cd 
+  323  la -la
+  324  ls -la
+  325  vi newscripts/welcome.sh 
+  326  vi .bash_profile 
+  327  export PATH=$PATH:/home/ec2-user/newscripts/
+  328  echo $PATH
+  329  vi .bash_profile 
+  330  which welcome.sh
+  331  welcome.sh 
+  332  umask
+  333  chmod -Rv u+rwx,g=rx,o=r newfile 
+  334  ll new
+  335  ll newfile 
+  336  rpm -qa | grep -i python
+  337  rpm -qa | grep -i perl
+  338  rpm -qa | grep -i httpd
+  339  clear
+  340  chmod -v 777 newfile 
+  341  vi newfile 
+  342  v -wi newfile 
+  343  vi -w newfile 
+  344  vi newfile 
+  345  vim newfile 
+  346  vi --help
+  347  vi -E newfile 
+  348  vi newfil
+  349  sh newfil
+  350  vi newfil
+  351  sh newfil
+  352  sh newfil 10 20 30 
+  353  vi newfil
+  354  sh newfil 10 20 30 
+  355  vi newfil
+  356  sh newfil 10 20 30 
+  357  vi newfil
+  358  sh newfil 10 20 30 
+  359  sh newfil
+  360  vi newfil
+  361  vi .vimrc
+  362  vi newfil
+  363  ls la
+  364  ls -la
+  365  rm .vimrc 
+  366  ls -la
+  367  vi newfile
+  368  touch newfile
+  369  vi newfile
+  370  echo "" > newfile
+  371  vi newfile
+  372  vi userlist.txt
+  373  vi newfile
+  374  sh newfile
+  375  vi newfile
+  376  sudo sh newfile
+  377  vi newfile
+  378  which userad
+  379  which useradd
+  380  su -
+  381  cat /etc/sudoers
+  382  sudo su
+  383  useradd x 
+  384  sudo su 
+  385  useradd x
+  386  sudo su 
+  387  /usr/sbin/useradd
+  388  ll /usr/sbin/useradd 
+  389  sudo su 
+  390  vi newfil
+  391  vi newfile 
+  392  chmod -Rv a+x newfile 
+  393  sh newfile 
+  394  tail -5 /etc/passwd
+  395  vi newfile 
+  396  sh newfile 
+  397  vi newfile 
+  398  visudpo
+  399  visudo
+  400  sudo visudo
+  401  vi newfile 
+  402  du -ksh newfil
+  403  watch -n free -m
+  404  free -m
+  405  watch -n free -m
+  406  watch -n| free -m
+  407  watch -n free -m
+  408  watch -cn free -m
+  409  watch -cx'n free -m
+  410  watch -cxn free -m
+  411  clear
+  412  vi newfile 
+  413  sh newfile 
+  414  vi newfile 
+  415  sh newfile 
+  416  vi newfile 
+  417  sh newfile 
+  418  vi newfile 
+  419  sh newfile 
+  420  vi newfile 
+  421  sh newfile 
+  422  vi newfile 
+  423  sh newfile 
+  424  cat /etc/passwd
+  425  [ -f /home/ashwani/test ] && echo "File exists" || echo "File does not exists"
+  426  [ -f /home/ashwani/ ] && echo "File exists" || echo "File does not exists"
+  427  [ -d /home/ashwani/ ] && echo "File exists" || echo "File does not exists"
+  428  history > file.txt 

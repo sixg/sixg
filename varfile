@@ -1,0 +1,11 @@
+#!/bin/bash
+# script to test the value within a variable
+
+read -t 2 -p "enter a passcode..." pass
+
+if [ -z $pass ]
+then
+	echo "Please enter a valid passcode"
+else
+	echo "Your pass is accepted"
+fi

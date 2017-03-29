@@ -1,0 +1,21 @@
+#!/bin/bash
+# single line comment
+<<multi
+	multiline comment
+multi
+clear
+if [ $# -eq 0 ]
+then
+	echo "Please enter a valid cmd args"
+else
+echo "first command line arg is $0"
+echo "2nd command line arg is $1"
+echo "3rd command line arg is $2"
+echo "total command line args $#"
+# echo "list all cmd line args $*"
+
+for x in $*
+do
+	echo $x
+done
+fi
